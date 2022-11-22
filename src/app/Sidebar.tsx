@@ -1,8 +1,8 @@
 import React, { PropsWithChildren } from 'react'
 import Link from 'next/link'
-type Props = {}
 
-const Sidebar = (props: PropsWithChildren<Props>) => {
+
+const Sidebar = () => {
     return (
         <>
             <div className='w-50 bg-background w-72 h-full p-4 pt-12 '>

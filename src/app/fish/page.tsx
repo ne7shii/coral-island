@@ -1,8 +1,8 @@
 import React from 'react'
 import { fishData } from './fish'
-type Props = {}
 
-const page = (props: Props) => {
+
+const page = () => {
     return (
         <div className='overflow-x-auto w-auto'>
             <table className='table-auto'>

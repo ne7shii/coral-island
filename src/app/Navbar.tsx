@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
 
-const Navbar = (props: Props) => {
+
+const Navbar = () => {
     return (
         <div className='h-14 bg-background'></div>
     )
