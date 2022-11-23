@@ -12,11 +12,11 @@ export default function RootLayout({
       <head />
       <body>
         <div className='flex flex-col h-screen text-primarytext'>
-          <Navbar />
-          <div className="flex flex-grow">
+          {/* <div className='h-14 bg-background w-screen '/> */}
+          <div className="flex flex-row flex-grow h-full">
             <Sidebar />
-            <div className="bg-background w-full h-full">
-              <div className="bg-white rounded-tl-3xl w-full h-full pl-12 pt-12">
+            <div className="bg-background w-full h-full pt-14 pb-4">
+              <div className="bg-white rounded-l-3xl w-full h-full pl-12 pt-12 overflow-auto " >
                 {children}
               </div>
 

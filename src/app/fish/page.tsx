@@ -4,7 +4,14 @@ import { fishData } from './fish'
 
 const page = () => {
     return (
-        <div className='overflow-x-auto w-auto'>
+        <div className='w-auto'>
+            <div>
+                <div role='group'>
+                    <button>test1</button>
+                    <button>test2</button>
+                </div>
+
+            </div>
             <table className='table-auto'>
                 <thead>
                     <tr >
